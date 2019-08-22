@@ -9,6 +9,9 @@ include 'config/database.php';
 $page_title="Create a Record";
 include_once "layout_head.php";
 
+echo "HOST - $host" + $host
+echo "PORT - $port" + $port
+	
 // if the form was submitted
 if($_POST){
 
