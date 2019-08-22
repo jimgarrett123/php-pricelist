@@ -14,6 +14,11 @@ if (file_exists($db_config_file)) {
 	$username = getenv("MYSQL_USER");
 	$password = getenv("MYSQL_PASSWORD");
 	$using_config_file = "no";
+	printf("HOST - [%s]\n",$host);
+	printf("PORT - [%s]\n",$port);
+	printf("DATABASE - [%s]\n",$db_name);
+	printf("USER - [%s]\n",$username);
+	printf("PASSWORD - [%s]\n",$password);
 }
 
 try {
