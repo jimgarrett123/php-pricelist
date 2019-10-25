@@ -17,6 +17,12 @@ if (file_exists($db_config_file)) {
 }
 
 try {
+	echo "MYSQL_SERVICE_HOST: " $host;
+	echo "MYSQL_SERVICE_PORT: " $port;
+	echo "MYSQL_USER: " $username;
+	echo "MYSQL_PASSWORD: " $password;
+	echo "MYSQL_DATABASE: " $db_name;
+	
 	$con = new PDO("mysql:host={$host};dbname={$db_name};port={$port}", $username, $password);
 }
 
