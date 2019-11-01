@@ -8,11 +8,16 @@ if (file_exists($db_config_file)) {
 	$using_config_file = "yes";
 } else {
 	// If file isn't there, we'll assume you want env vars
-	$host = getenv("MYSQL_SERVICE_HOST");
-	$port = getenv("MYSQL_SERVICE_PORT");
-	$db_name = getenv("MYSQL_DATABASE");
-	$username = getenv("MYSQL_USER");
-	$password = getenv("MYSQL_PASSWORD");
+	$host = "mysql";
+	$port = "3306";
+	$db_name = "pricelist";
+	$username = "pricelist";
+	$password = "pricelist";
+//	$host = getenv("MYSQL_SERVICE_HOST");
+//	$port = getenv("MYSQL_SERVICE_PORT");
+//	$db_name = getenv("MYSQL_DATABASE");
+//	$username = getenv("MYSQL_USER");
+//	$password = getenv("MYSQL_PASSWORD");
 	$using_config_file = "no";
 }
 
