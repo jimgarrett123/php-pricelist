@@ -1,5 +1,5 @@
 <?php
-// include core configuration
+// include core configuration test
 include 'config/core.php';
  
 // Comment out database for testing
