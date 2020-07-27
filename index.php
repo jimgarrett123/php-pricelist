@@ -9,7 +9,7 @@ include 'config/core.php';
 $action = isset($_GET['action']) ? $_GET['action'] : "";
 
 // page header
-$page_title="PHP Pricelist Test";
+$page_title="PHP Pricelist";
 include_once "layout_head.php";
 
 // if it was redirected from delete.php
