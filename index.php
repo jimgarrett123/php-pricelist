@@ -26,4 +26,4 @@ include_once "index_template.php";
 // page footer
 include_once "layout_foot.php";
 ?>
-test
+
