@@ -24,6 +24,6 @@ steps:
   inputs:
     connectionType: 'OpenShift Connection Service'
     openshiftService: 'Openshift'
-    version: '4.6'
+    version: '4.6.46'
     cmd: 'oc status'
     uselocalOc: true
