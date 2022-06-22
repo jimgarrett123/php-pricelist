@@ -28,4 +28,4 @@ include_once "index_template.php";
 include_once "layout_foot.php";
 ?>
 
-test2
+test3
