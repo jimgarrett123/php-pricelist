@@ -1,4 +1,7 @@
 <?php
+
+$text = "Pipeline Test";
+
 // include core configuration test2
 //test
 include 'config/core.php';
@@ -26,6 +29,7 @@ include_once "index_template.php";
 
 // page footer
 include_once "layout_foot.php";
+
+echo '<div style="text-align: center;"><b>$text</b></div>'
 ?>
 
-test
