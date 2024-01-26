@@ -30,6 +30,6 @@ include_once "index_template.php";
 // page footer
 include_once "layout_foot.php";
 
-echo '<div style="text-align: center;"><b>$text</b></div>'
+echo '<div style="text-align: center;">'<b>$text</b>'</div>'
 ?>
 
