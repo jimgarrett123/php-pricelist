@@ -31,7 +31,7 @@ include_once "index_template.php";
 include_once "layout_foot.php";
 
 echo '<div style="text-align: center;">';
-echo <b> $text </b>;
+echo $text;
 echo '</div>';
 ?>
 
