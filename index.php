@@ -1,6 +1,6 @@
 <?php
 
-$text = "Pipeline Test 9";
+$text = "Pipeline Test 10";
 
 // include core configuration test2
 //test
